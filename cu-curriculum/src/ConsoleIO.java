@@ -9,14 +9,14 @@ public class ConsoleIO {
 
 //   CURRICULUM
 //   printing to the console
-        String name = "codeup";
-        // System is a class and .out prints OUT to the console and .printf
-        // prints formatted string
-        System.out.printf("Hello there, %s. Nice to see you.\n", name);
-
-        String greeting = "Salutations";
-        String secondName = "codeup";
-        System.out.printf("%s, %s!", greeting, secondName);
+//        String name = "codeup";
+//        // System is a class and .out prints OUT to the console and .printf
+//        // prints formatted string
+//        System.out.printf("Hello there, %s. Nice to see you.\n", name);
+//
+//        String greeting = "Salutations";
+//        String secondName = "codeup";
+//        System.out.printf("%s, %s!", greeting, secondName);
 
 
 //    getting input from the user in the terminalSystem.out.print("Enter something: ");
@@ -79,8 +79,8 @@ public class ConsoleIO {
         System.out.println("enter the length and the width of the " +
                 "classroom: ");
         String periInput = scanner.nextLine();
-//        int numVals = Integer.parseInt(periInput);
-        System.out.println("length and width is: " + Integer.parseInt(periInput));
+        int numVals = Integer.parseInt(periInput);
+        System.out.println("length and width is: " + numVals);
 
 
     }
