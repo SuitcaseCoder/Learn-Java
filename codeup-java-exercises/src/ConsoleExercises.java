@@ -3,7 +3,8 @@
 
 import java.util.Scanner;
 
-public class ConsoleIO {
+public class ConsoleExercises {
+//        sout : shortcut for logging
 
     public static void main(String[] args) {
 
@@ -78,9 +79,12 @@ public class ConsoleIO {
 
         System.out.println("enter the length and the width of the " +
                 "classroom: ");
-        String periInput = scanner.nextLine();
-//        int numVals = Integer.parseInt(periInput);
-        System.out.println("length and width is: " + numVals);
+        String inputWidth = scanner.nextLine();
+        String inputLength = scanner.nextLine();
+        int width = Integer.parseInt(inputWidth);
+        int length = Integer.parseInt(inputLength);
+
+        System.out.println("length and width is: " + width + " " + length);
 
 
     }
