@@ -86,6 +86,10 @@ public class ConsoleExercises {
 
         System.out.println("length and width is: " + width + " " + length);
 
+//        2. print out the perimeter and area of the codeup classroom
+        System.out.println("the area is: " + length * width);
+        System.out.println("the perimeter is: " + (length * 2) + (width * 2));
+
 
     }
 }
