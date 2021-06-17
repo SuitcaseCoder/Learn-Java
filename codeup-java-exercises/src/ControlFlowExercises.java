@@ -75,6 +75,35 @@ public class ControlFlowExercises {
 //        }
 
 //     EXERCISES
+//        1. Loop Basics
+//            a.WHILE
+//        // create an integer variable i with a value of 5
+//        int i = 5;
+//        // create a while loop that runs so long as i is less than or
+//        // equal to 15
+//        while(i <= 15){
+//            System.out.println(i + " ");
+//            i += 1;
+////            i++;
+//        }
+
+////            b. DO WHILE
+//        int y = 0;
+//        do {
+//            System.out.println(y += 2);
+//        } while (y < 100);
+    
+//        int y = 100;
+//        do {
+//            System.out.println(y -= 5);
+//        } while (y > -10);
+    
+        int y = 2;
+        do {
+            System.out.println(y);
+            y *= y;
+        } while (y < 1000); // how do I do this with 1000000
+        
         
     
     
