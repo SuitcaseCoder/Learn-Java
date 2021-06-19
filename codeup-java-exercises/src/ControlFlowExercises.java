@@ -39,7 +39,7 @@ public class ControlFlowExercises {
 //        if(eight < ten){
 //            System.out.println("eight is less than ten");
 //        }
-        
+
 ////  Switch Statement Syntax
 //        int caseSwitch = 1;
 ////    comparing the caseSwitch to all the different cases (1, 2, etc.)
@@ -66,7 +66,7 @@ public class ControlFlowExercises {
 //        do {
 //            System.out.println("You will see this despite the condition!");
 //        } while (false);
-        
+
 ////      For Loop
 ////        for(initializing point; condition; iteration/update)
 //        for(int i = 0; i < 10; i += 1) {
@@ -92,25 +92,45 @@ public class ControlFlowExercises {
 //        do {
 //            System.out.println(y += 2);
 //        } while (y < 100);
-    
+
 //        int y = 100;
 //        do {
 //            System.out.println(y -= 5);
 //        } while (y > -10);
-    
-        int y = 2;
-        do {
-            System.out.println(y);
-            y *= y;
-        } while (y < 1000); // how do I do this with 1000000
-        
-//
 
-//     c. FOR LOOP
-        int i = 5;
-        for(i = 0; i <= 15; i++){
-            System.out.println(i+=1);
-        }
+//        int y = 2;
+//        do {
+//            System.out.println(y);
+//            y *= y;
+//        } while (y < 1000); // how do I do this with 1000000
+//
+////
+
+////     c. FOR LOOP
+//        int i = 5;
+//        for(i = 0; i <= 15; i++){
+//            System.out.println(i+=1);
+//        }
+
+//        FIZZBUZZ
+//        give i a starting point, set it to an int variable
+//        int i = 0;
+//        write a for loop that loops through 0 - 100 increment by 1;
+//        for(i =0; i<=100; i++){
+//            if(i % 3 == 0 && i % 5 == 0){
+//                System.out.println("fizzbuzz");
+//            } else if (i % 5 == 0){
+//                System.out.println("buzz");
+//            } else if(i % 3 == 0){
+//                System.out.println("fizz");
+//            } else {
+//                System.out.println(i);
+//            }
+//        }
+
+//        
+    
+    
     
     
     
