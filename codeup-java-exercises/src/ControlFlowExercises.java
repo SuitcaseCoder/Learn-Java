@@ -104,7 +104,13 @@ public class ControlFlowExercises {
             y *= y;
         } while (y < 1000); // how do I do this with 1000000
         
-        
+//
+
+//     c. FOR LOOP
+        int i = 5;
+        for(i = 0; i <= 15; i++){
+            System.out.println(i+=1);
+        }
     
     
     
